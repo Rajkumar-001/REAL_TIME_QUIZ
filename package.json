@@ -2,6 +2,7 @@
   "name": "real_time_quiz",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +11,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.15.29",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "http": "^0.0.1-security",
     "websocket": "^1.0.35"
   }
 }
